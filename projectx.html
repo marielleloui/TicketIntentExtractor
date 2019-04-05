@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="div-title">
+      <h1 id="title">
+          Ticket Intent Extractor
+      </h1>
+      <p id="title-desc">An application that extracts information from support tickets, and creates
+      data clusters with the use of Machine Learning models in Python </p>
+    </div>
+    <div class="container">
+      <br><br>
+      <form id="the-form" method="POST" enctype="multipart/form-data">
+        <input class="inputfile" id="file" type="file" name="file">
+        <br>
+        <div class="btn-btn">
+          <input class="btn-green btn-green-upload" type="submit" value="Upload">
+        </div>
+      </form>
+      <form id="download" action="http://127.0.0.1:5000/sorted1">
+        <div class="btn-btn">
+          <input class="btn-green btn-green-download" type="submit" value="Download CSV">
+        </div>
+      </form>
+      <p>
+        <a class="toggle" href="#example">Show Plot</a>
+      </p>
+      <div class="toggle-content" id="example">
+        <iframe src="http://127.0.0.1:5000/dataplot" width="640" height="375"></iframe>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

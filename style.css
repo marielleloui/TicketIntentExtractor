@@ -1,0 +1,89 @@
+body {
+  background-image: url('https://i.pinimg.com/originals/66/cf/b5/66cfb5baca7af373c9b2afaed1e8849d.jpg');
+  background-size: cover;
+  height: 750px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+  margin: 0;
+  display: inline;
+}
+
+p {
+  margin: 10px;
+}
+
+input[type="file" i] {
+    color: #686868;
+}
+
+.container {
+    text-align: center;
+    height: 30px;
+}
+
+.btn-green {
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #5cc05c;
+  border-color: transparent;
+  margin: 5px 0 20px;
+}
+
+.btn-green-upload {
+  padding: 8px 55px;
+}
+
+.btn-green-download {
+  padding: 8px 30px;
+}
+
+.div-title {
+  padding: 110px 0px 0px;
+  text-align: center;
+}
+
+.btn-btn {
+  display: inline;
+}
+
+#title {
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#title-desc {
+  color: #686868;
+  width: 500px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+}
+
+/* Show Plot Button */
+
+.toggle {
+  color: #5cc05c;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.toggle:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.toggle-content {
+	display: none;
+}
+
+.toggle-content.is-visible {
+	display: block;
+}
